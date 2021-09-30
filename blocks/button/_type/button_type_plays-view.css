@@ -1,0 +1,14 @@
+.button_type_plays-view {
+  width: 244px;
+  height: 56px;
+  border-top: 1px solid var(--color-carbonic);
+  border-bottom: 1px solid var(--color-carbonic);
+  padding-left: 16px;
+  font: var(--body-text-small);
+}
+
+.button_type_plays-view::after {
+  background-image: url(../../../images/arrow-top-right.svg);
+  background-position-y: center;
+  background-position-x: calc(244px - 16px - 25px);
+}

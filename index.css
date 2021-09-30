@@ -1,0 +1,38 @@
+@import url(./vendor/normalize.css);
+@import url(./vendor/fonts.css);
+@import url(./blocks/button/button.css);
+@import url(./blocks/button/_type/button_type_end_left.css);
+@import url(./blocks/button/_type/button_type_start_right.css);
+@import url(./blocks/button/_type/button_type_plays-download.css);
+@import url(./blocks/button/_type/button_type_plays-view.css);
+@import url(./blocks/button/_type/button_type_youtube-link.css);
+
+body {display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 100px;
+  --color-carbonic: #242424;
+  --color-snow-white: #fff;
+  --color-main: #ecebe8;
+  --color-accent: #b7c09d;
+  --headline-1: 400 72px/70px NeueMachina;
+  --headline-2: 400 64px/60px NeueMachina;
+  --headline-3: 400 56px/56px NeueMachina;
+  --headline-4: 400 40px/40px NeueMachina;
+  --headline-5: 400 36px/38px NeueMachina;
+  --headline-6: 400 28px/32px NeueMachina;
+  --headline-7: 400 20px/24px NeueMachina;
+  --body-text: 300 20px/28px Formular;
+  --body-text-medium: 300 18px/23px Formular;
+  --body-text-small: 300 16px/22px Formular;
+  --caption-text: 300 14px/17px Formular;
+  --letter-spacing: -0.01em;
+  --btn-title: 300 16px/14px Formular;
+  color: var(--color-carbonic);
+  font-family: FormularLight, sans-serif;
+  letter-spacing: var(--letter-spacing);
+  max-width: 1440px;
+  background: var(--color-main);
+  margin: 0px auto;
+}
+
