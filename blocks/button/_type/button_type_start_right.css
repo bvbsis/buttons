@@ -11,3 +11,7 @@
   background-image: url(../../../images/arrow-right.svg);
   background-position-y: center;
 }
+
+.button_type_start_right::before {
+  left: 0;
+}

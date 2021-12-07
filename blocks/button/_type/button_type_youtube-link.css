@@ -12,3 +12,7 @@
   background-position-x: calc(298px - 16px - 25px);
 
 }
+
+.button_type_youtube-link::before {
+  left: 0;
+}

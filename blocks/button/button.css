@@ -38,7 +38,6 @@
 .button::before {
   content: "";
   background-color: var(--color-carbonic);
-  left: 0;
   width: 0;
   height: 100%;
   position: absolute;

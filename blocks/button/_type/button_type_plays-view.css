@@ -12,3 +12,7 @@
   background-position-y: center;
   background-position-x: calc(244px - 16px - 25px);
 }
+
+.button_type_plays-view::before {
+  left: 0;
+}
